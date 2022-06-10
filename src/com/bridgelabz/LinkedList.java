@@ -51,4 +51,8 @@ public class LinkedList<K> {
         searchedNode.next = insertValue;
     }
 
+    public void pop(){
+        head  = head.next;
+    }
+
 }

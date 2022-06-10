@@ -27,6 +27,10 @@ public class LinkedListMain {
         System.out.println();
         l3.print();
 
+        l3.pop();
+        System.out.println();
+        l3.print();
+
 
     }
 }
