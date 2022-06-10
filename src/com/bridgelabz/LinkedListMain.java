@@ -9,5 +9,7 @@ public class LinkedListMain {
         l1.push(30);
         l1.push(70);
 
+        l1.print();
+
     }
 }
