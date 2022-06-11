@@ -81,4 +81,21 @@ public class LinkedList<K> {
         previousNode.next=temp.next;
     }
 
+    public void sort(){
+        Node<K> temp = head;
+        Node<K> index= temp.next;
+        Integer value=0;
+
+        while(temp!=null){
+            while(index!=null) {
+                if ((Integer) temp.key > (Integer) index.key) {
+                    value = (Integer) temp.key;
+                    temp.key = index.key;
+                    index.key = (K) value;
+                }
+                index=index.next;
+            }
+            temp=temp.next;
+        }
+    }
 }
