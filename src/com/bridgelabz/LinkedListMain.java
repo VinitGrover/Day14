@@ -41,7 +41,7 @@ public class LinkedListMain {
         if(temp == null){
             System.out.println("Data not found");
         }else{
-            System.out.println("Data found");
+            System.out.println("Data found ");
         }
 
         l1.insert(40,30);
