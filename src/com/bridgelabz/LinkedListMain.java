@@ -23,7 +23,7 @@ public class LinkedListMain {
         l3.add(56);
         l3.add(30);
 
-        l3.insert(70,56);
+        l3.insert(70, 56);
         System.out.println();
         l3.print();
 
@@ -38,13 +38,13 @@ public class LinkedListMain {
         System.out.println("\nFinding Node value 30");
         Node<Integer> temp = l1.search(30);
 
-        if(temp == null){
+        if (temp == null) {
             System.out.println("Data not found");
-        }else{
+        } else {
             System.out.println("Data found ");
         }
 
-        l1.insert(40,30);
+        l1.insert(40, 30);
         l1.print();
 
         l1.delete(40);
@@ -54,6 +54,18 @@ public class LinkedListMain {
         l1.sort();
         System.out.println();
         l1.print();
+
+        System.out.println("*******************Stacks****************");
+
+        Stack stackVariable = new Stack();
+        stackVariable.push(56);
+        stackVariable.push(30);
+        stackVariable.push(70);
+
+        stackVariable.print();
+
+
+
 
     }
 }
