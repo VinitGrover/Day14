@@ -55,12 +55,12 @@ public class LinkedListMain {
         System.out.println();
         l1.print();
 
-        System.out.println("*******************Stacks****************");
+        System.out.println("\n*******************Stacks****************");
 
         Stack stackVariable = new Stack();
-        stackVariable.push(56);
-        stackVariable.push(30);
         stackVariable.push(70);
+        stackVariable.push(30);
+        stackVariable.push(56);
 
         stackVariable.print();
 
