@@ -47,6 +47,10 @@ public class LinkedListMain {
         l1.insert(40,30);
         l1.print();
 
+        l1.delete(40);
+        System.out.println();
+        l1.print();
+
 
     }
 }
