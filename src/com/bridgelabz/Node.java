@@ -10,6 +10,4 @@ public class Node<K> {
 
     Node() {
     }
-
-
 }
