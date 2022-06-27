@@ -95,6 +95,7 @@ public class LinkedList<K> {
                 }
                 index=index.next;
             }
+            index = temp.next;
             temp=temp.next;
         }
     }
